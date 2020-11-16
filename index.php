@@ -20,7 +20,29 @@ class Chien {
     }
 }
 
-$rex = new Chien();
-var_dump($rex);
+class Chat {
+
+    private $coussinets;
+    public $age;
+    public $groupeSanguin;
+    public $taile;
+    public $poids;
+
+    public function mange() {
+
+    }
+
+    public function dort() {
+
+    }
+
+    public function miaule() {
+
+    }
+
+}
+
+$felix = new Chat();
+var_dump($felix);
 
 ?>
