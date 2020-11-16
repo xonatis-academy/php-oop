@@ -2,10 +2,10 @@
 
 class Chien {
 
-    public int $age;
-    public string $groupeSanguin;
-    public int $taille;
-    public int $poids;
+    public $age;
+    public $groupeSanguin;
+    public $taille;
+    public $poids;
 
     public function mange() {
 
