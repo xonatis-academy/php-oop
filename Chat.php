@@ -7,8 +7,8 @@ class Chat extends Animal {
 
     }
 
-    public function mange() {
-        echo $this->prenom . " Miauw, j'aime les croquettes et je mange. Ne dérange pas !! ";
+    public function mange(Nourriture $nouri) {
+        echo $this->prenom . " Miauw, j'aime " . $nouri->gout . " et je mange. Ne dérange pas !! ";
     }
 
 }
