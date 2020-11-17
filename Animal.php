@@ -4,16 +4,17 @@ class Animal {
 
     public $age;
     public $groupeSanguin;
-    public $taille;
-    public $poids;
+    protected $taille;
+    protected $poids;
 
-    public function mange() {
+    protected function mange() {
 
     }
 
-    public function dort() {
+    protected function dort() {
         
     }
+
 }
 
 ?>

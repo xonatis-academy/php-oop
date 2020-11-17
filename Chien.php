@@ -2,7 +2,7 @@
 
 class Chien extends Animal {
 
-    public function aboie() {
+    private function aboie() {
 
     }
 }
