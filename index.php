@@ -3,6 +3,17 @@ include 'Animal.php';
 include 'Chat.php';
 include 'Chien.php';
 
+include 'Nourriture.php';
+include 'Croquette.php';
+include 'Os.php';
+
+$nourriture = new Os();
+
+
+var_dump($nourriture);
+
+
+
 $felix = new Chat();
 $silicone = new Chat();
 
