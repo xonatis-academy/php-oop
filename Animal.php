@@ -6,9 +6,11 @@ class Animal {
     public $groupeSanguin;
     protected $taille;
     protected $poids;
+    public $prenom;
 
-    protected function mange() {
-
+    public function mange() {
+        echo "Je mache la nourriture";
+        echo "J'avale la nourriture";
     }
 
     protected function dort() {
