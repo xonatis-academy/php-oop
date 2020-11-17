@@ -9,8 +9,8 @@ class Animal {
     public $prenom;
 
     public function mange() {
-        echo "Je mache la nourriture";
-        echo "J'avale la nourriture";
+        echo $this->prenom . " Je mache la nourriture";
+        echo $this->prenom . " J'avale la nourriture";
     }
 
     protected function dort() {
