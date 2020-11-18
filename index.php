@@ -1,7 +1,7 @@
 <?php
+include 'IPeutManger.php';
 include 'Animal.php';
 include 'Chien.php';
-
 include 'Nourriture.php';
 include 'Os.php';
 
