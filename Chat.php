@@ -1,6 +1,6 @@
 <?php 
 
-class Chat extends Animal {
+class Chat extends Animal implements IPeutManger {
 
     private $coussinets;
     private function miaule() {
