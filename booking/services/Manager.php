@@ -4,7 +4,7 @@ class Manager {
     private Provider $providers;
 
     public function rent(Availability $d, Customer $c) {
-
+        
     }
 
     public function listAvailibilities(string $date, int $capacity) {
