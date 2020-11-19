@@ -6,13 +6,13 @@ include 'Nourriture.php';
 include 'Os.php';
 include 'Jouet.php';
 
-$panier1 = new Os();
-$panier1->gout = 'Os';
+$nourriture_carrefour = new Os();
+$nourriture_carrefour->gout = 'Os';
 
 // doit implementer IPeuManger pour que cela fonctionne
 $rex = new Chien();
 $rex->prenom = 'Rex';
-$rex->mange($panier1);
+$rex->mange($nourriture_carrefour);
 
 $balle = new Jouet();
 $balle->nom = 'Balle rebondissante';
