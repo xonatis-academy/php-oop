@@ -16,7 +16,6 @@ include 'services/AttestationGenerator.php';
 include 'services/Manager.php';
 
 // Runtime
-$william = new Manager();
 $thomas = new AttestationGenerator();
 $feli = new Aggregator();
 
@@ -28,8 +27,7 @@ $thomas->provider = $cindy;
 $feli->provider1 = $nath;
 $feli->provider2 = $mat;
 
-$william->aggregator = $feli;
-$william->generator = $thomas;
+$william = new Manager($feli, $thomas);
 
 $attestations = $william->traiterLHeureCourante();
 
