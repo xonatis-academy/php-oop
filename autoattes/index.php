@@ -1,5 +1,4 @@
 <?php
-
 // Inclusion de modeles (données)
 include 'models/Attestation.php';
 include 'models/Profile.php';
@@ -32,4 +31,23 @@ $william = new Manager($feli, $thomas);
 $attestations = $william->traiterLHeureCourante();
 
 var_dump($attestations);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$coucou = function () {
+    $titi = 5;
+};
+
+$coucou();
 ?>

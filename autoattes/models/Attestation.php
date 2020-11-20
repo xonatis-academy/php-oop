@@ -1,9 +1,11 @@
 <?php
 
-class Attestation {
+namespace App\Toto {
+    class Attestation {
 
-    public $url;
-
+        public $url;
+    
+    }
 }
 
 ?>

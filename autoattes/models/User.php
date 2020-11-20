@@ -1,9 +1,12 @@
 <?php
 
-class User {
+namespace App\CompteCourant {
+    class User {
 
-    public $identifiant;
-
+        public $identifiant;
+    
+    }
 }
+
 
 ?>

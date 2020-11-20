@@ -5,7 +5,7 @@ class Manager {
     public $aggregator;
     public $generator;
 
-    public function __construct($toto1, $toto2) {
+    public function __construct(Aggregator $toto1, AttestationGenerator $toto2) {
         $this->aggregator = $toto1;
         $this->generator = $toto2;
     }
